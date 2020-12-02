@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Digital Literacy - Week 9 Assignment</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="#home" class="navbar-brand page-scroll">Online-Collaboration</a>
+        </div>
+        
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about" class="page-scroll">About</a></li>
+            <li><a href="#portfolio" class="page-scroll">Data</a></li>
+            <li><a href="#conclusion" class="page-scroll">Conclusion</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+    
+    <!-- jumbotron -->
+    <div class="jumbotron text-center">
+      <div id="intro" class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>Online Learning</h1>
+            <p>This pandemic affect all the sectors in our life. One of them is education.
+               As the goverment said, we have to study at home or we can say online learning. 
+               This is a new things from most of us. So, we held this "Online Learning Survey" to help
+               others to reveal or tell what problem they are facing. So, this is the result.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir jumbotron -->
+
+
+    <!-- about -->
+    <section class="about title" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">About</h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-5 col-sm-offset-1 kiri">
+            <p>We used Google Form to held this survey. The survey was on November of 10-12, 2020.</p>
+          </div>
+          <div class="col-sm-5 kanan">
+            <p>The respondents of this survey are 90. But only 89 respondents who answered all the questions given.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card shadow">
+              <div class="card-body">
+                <img class="align-self-center mr-3" src="img/index.png" alt="Github Logo">
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-8">
+            <div class="card shadow">
+              <div class="card-body">
+                <h1 id="sponsor">THX FOR GIT HUB</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir about -->
+
+
+
+    <!-- portfolio -->
+    <section class="portfolio title" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>Participant</h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="status">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="gender">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="origin">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+        </div>
+
+        <!-- bagian deskripsi -->
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card thumbnail shadow">
+              <div class="card-body text-center">
+                <h2>Grade of Education</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card thumbnail shadow">
+              <div class="card-body text-center">
+                <h2>Gender</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card thumbnail shadow">
+              <div class="card-body text-center">
+                <h2>Origin</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- akhir portfolio -->
+
+    <!-- First Section -->
+    <section class="portfolio title">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>First Section</h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="place">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+          <div class="col-sm-4">
+            <div class="card thumbnail shadow">
+              <div class="card-body">
+                <p>98 percent of the survey out of 100 percent shows that the average learning rate is currently at home. The reason why we have to study at home is because currently the situation outside the home does not allow us to meet face to face with friends and teachers at school.
+                   The situation outside the home is not yet safe because the transmission of the virus that causes COVID-19 is still high.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="frequencies">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+        </div>
+
+        <!-- bagian 2 -->
+        <div class="row">
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="understand">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+          <div class="col-sm-8">
+            <div class="card thumbnail shadow">
+              <div class="card-body">
+                <p>Of the 64 percent of surveys that showed online study time at home was for 5 days and little online study time up to 6 days, based on the survey, there are 5 percent of 100 percent. Five days and six days of online schooling is usually experienced by high school students. As for students the possibility of studying online is traveled for four to five days only. According to the Survey, eight percent of those who attended school for four days.The length of school time during this pandemic affects the level of understanding for students. For example, online learning today also has a negative impact such as the unclear words of teachers, or the absence of direct interaction between teachers and students so it is likely that the level of student understanding is different. Students who study 4 days or 5 days are less likely to understand the lesson. Slightly Different from students who study online for up to 6 days even every day.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="card thumbnail shadow">
+              <div class="card-body">
+                <p>Out of 88 people, around 69.3% of people were not happy with the home learning method and 30.7% of people were happy with the home learning method. The reason they are not happy with studying at home is maybe they feel lonely and lack the support and help of their friends who usually help when we are in trouble, even though there is social media that makes work easier, for some people this very difficult for them, sometimes parents are less able to help their children in studying because they are busy and tired of working, and there may be several other problems such as their inability to buy technology and quotas that burden student and parents who make them unhappy with this home learning method. And the reason for those who like to study at home is maybe for them with this home learning method, they can be more relaxed in learning and doing the assignments given by the teachers, and also can be closer to their parents. With the help of technology & information, they can find and solve their tasks and problems easily.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="Environment">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="SourceofStudy">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+          <div class="col-sm-8">
+            <div class="card thumbnail shadow">
+              <div class="card-body">
+                <p>Of the 87 people, about 66.7% had easy access to material and 33.3% had difficulty in obtaining material. For 67% of people finding material is easy, with help from friends and the internet as well as parents. For them books and the internet are a storehouse of knowledge, in books various explanations of the material have been provided carefully and are easy to understand, and the internet is also a lot of sites that can be visited to look for material, so if them explanation in the book is unclear or something is still mising, then the internet maybe it can be an addition to these shortcomings. The friends, teachers, and parents who will help in learning, either by adding or correcting assignments or lessons that we are studying. That way they search for and study material from books and websites on the internet and than ask for an explanation by parent, teacher, friends or siblings. And the remaining 33% find it difficult when looking for material. So that make it difficult for them to learn. Even though the book is full of material, sometimes not all of the explanation are in the book, and sometimes parents, teachers and friends can’t help, so that the material they get is lacking and when they want to do assignments where these questions require complex explanation, he was not optimal in filling and answering the questions.
+</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- akhir First Section -->
+
+    <!-- section 2 -->
+    <section class="portfolio title">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center title">
+            <h2>Second Section</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="flexibility">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+          <div class="col-sm-8">
+            <div class="card thumbnail shadow">
+              <div class="card-body">
+                <p>Participants' responses to the second question in our online learning survey stated that 58.4% or 52 of 89 responses stated that the e-learning system allows them to choose the material they want to study, while 41.6% or 37 of 89 responses chose the e-learning system does not allow them to choose the material they want to study.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="card thumbnail shadow">
+              <div class="card-body">
+                <p>Participants' responses to the second question in our online learning survey stated that the majority of people as much as 59.7% or 62 of the 89 responses chose yes to the statement that the e-learning system allows them to learn the material they need, while a minority of people is 30.3% or 27 Of the 89 responses choose no to the statement the e-learning system enables them to study the material they need.
+</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="Freedom">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="skill">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+          <div class="col-sm-8">
+            <div class="card thumbnail shadow">
+              <div class="card-body">
+                <p>About 89 respondents, 55.1% of people could not control their ability to learn and the rest were able to control their ability to learn. For the 55%, they find it difficult to control their learning ability due to various causes such as signal interference, their lack of ability to understand learning material, many temptations not to study, work and do assignments and many more. Their lack of ability to control their learning abilities causes many deficiencies and less than optimal learning outcomes, so that there are many who do not understand a material, then misunderstand and apply it in their daily lives. For them, the existence of e-learning makes them too relaxed and ends up ignoring the lessons and assignments given by their teachers, so that many miss the material. And for the rest, they can control their learning abilities with a lot of help, either with bells or reminders so they want to study on schedule and collect assignments on time. That way they are not left behind in material and can do assignments easily and have no difficulty when facing school exams or state exams.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- akhir section 2 -->
+      </div>
+    </section>
+
+    <section id="conclusion" class="title">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="card thumbnail shadow">
+              <div class="card-body">
+                <h5 class="card-title text-center">Conclusion</h5>
+                <p class="card-text">Based on our data analysis, we can conclude that:</p>
+                <ol>
+                  <li>67.8 percent of our respondents are college students,</li>
+                  <li>Our respondents come from many different cities in Indonesia, such as Bekasi, Semarang, Bandung, Medan, Lombok Barat, and so on,</li>
+                  <li>51.1 percent of our respondents are male while female only 47.8 percent,</li>
+                  <li>87 out of 89 our respondents or we can say 97.8 percent of our respondents are studying online,</li>
+                  <li>In this pandemic, 64 percent of our respondents are studying for 5 days in a week, while others studying more than 5 days in a week,</li>
+                  <li>The obstacles experienced by each respondent are different from one and another. But the most common answer is they don’t concentrate on studying online compare when they study offline. This is proved by 70.8 percent of our respondents.</li>
+                  <li>In question six we know that most of them don’t concentrate when studying online this affects the ability to understand the material provided by the teacher or lecturer. Or we can say that 58.4 percent of our respondents don’t understand what they study about,</li>
+                  <li>This pandemic also makes most of our respondents don’t enjoy the new version of the study. 69.3 percent of our respondents said that. They prefer to study offline to online,</li>
+                  <li>By our data, 66.7 percent of our respondents said that they can easily get the material courses since it is provided by Google or anything else,</li>
+                  <li>The first thing that they are enjoying the online learning is that they can enjoy studying what they like (their passion). 58.4 percent of our respondents said that,</li>
+                  <li>The second things that they are enjoying online learning are that they can study what they need. 69.7 percent of the respondents prove it.</li>
+                  <li>The last question that we asked the respondents is about how your teacher or lecturer is helping you during this online learning. The most common answer (42 percent of our respondents) is the teacher or lecturer is helpful not very helpful or either didn't help at all.</li>
+                </ol>
+                <p>So, that’s all about the conclusion. We used google form to collect our data. At last, we want to say that this is a new era for us, not only for the student but also for the teacher or lecturer. So, we want that we work together to pass through this pandemic era.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="footer">Digital Literacy - Week 9 Assignment</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="footer">Group 1</p>>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir footer -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+   <script src="js/script.js"></script>
+
+  </body>
+</html>
+
+
+
+
